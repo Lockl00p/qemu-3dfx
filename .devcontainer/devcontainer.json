@@ -1,6 +1,8 @@
 {
   "image": "alpine",
   "features": {"ghcr.io/muhmdraouf/devcontainers-features/alpine-apk:0": {
-    "packages":"curl,git,bash,bc,bison,bzip2,ca-certificates,ccache,findutils,glex,build-base,libfdt,qemu-dev,libffi-dev,glib-dev,pixman-dev,locales,meson,ninja-build,python3,sed,tar,py3-virtualenv,libusb-dev,alsa-lib-dev,sdl2-dev"
-  }}
+    "packages":"curl,git,bash,bc,bison,bzip2,ca-certificates,ccache,findutils,glex,build-base,libfdt,qemu-dev,libffi-dev,glib-dev,pixman-dev,locales,meson,ninja-build,python3,sed,tar,py3-virtualenv,libusb-dev,alsa-lib-dev,sdl2-dev",
+    "upgradePackages":true
+  }
+  }
 }
